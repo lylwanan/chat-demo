@@ -11,3 +11,5 @@ Vue2.0 + TypeScript + webpack；
 	b.npm start开发环境查看，npm run build 生产环境打包；
 
 	c.若不安装依赖，直接在dist目录中用chrome浏览器打开index.html即可。
+### 效果图预览
+ ![image](https://github.com/lylwanan/chat-demo/blob/master/src/assets/img/result.png)
