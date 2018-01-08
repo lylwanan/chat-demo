@@ -1,0 +1,41 @@
+[chat-component] {
+  .mostTop {
+    z-index: 1000;
+  }
+  .title-img {
+    height: 100%;
+    padding: 0 10px;
+    .left-box{
+      height: 50px;
+      display: table-cell;
+      vertical-align: middle;
+      & > img {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        border-radius: 50%;
+      }
+      & > span {
+        margin-left: 5px;
+        font-weight: bolder;  
+      }
+    }
+  }
+  .close {
+    display: inline-block;
+    width: 15px;
+    height: 15px;  
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    background: #d16850;
+    border-radius: 50%;
+    &:hover:after {
+      content: 'x';
+      color: #fff;
+      font-size: 15px;
+    }
+  }
+}
