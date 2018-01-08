@@ -8,7 +8,7 @@ Vue2.0 + TypeScript + webpack；
 
 	a.npm install安装依赖包；
 	
-	b.npm start开发环境查看，npm run build 生产环境打包，启动后浏览器输入localhost:4200即可查看效果；
+	b.npm start开发环境查看，npm run build 生产环境打包，启动后浏览器输入 http://localhost:4200 即可查看效果；
 
 	c.若不安装依赖，直接在dist目录中用chrome浏览器打开index.html即可。
 ### 效果图预览
